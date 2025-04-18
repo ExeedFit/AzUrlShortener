@@ -31,5 +31,3 @@ jobs:
 
     - name: Build solution
       run: dotnet build src/AzUrlShortener.sln --no-restore --configuration Release
-       with:
-          skip_deploy_on_missing_secrets: true
